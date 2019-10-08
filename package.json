@@ -1,12 +1,31 @@
 {
-  "name": "hackrank-js",
+  "name": "hackerrank-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# hackerrank-js\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx mocha"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Diwakar Shukla",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shukladiwakar/hackerrank-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shukladiwakar/hackerrank-js/issues"
+  },
+  "homepage": "https://github.com/shukladiwakar/hackerrank-js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": "^2.348.0",
+    "chai": "4.2.0",
+    "eslint": "5.8.0",
+    "expect": "23.6.0",
+    "mocha": "5.2.0",
+    "nyc": "13.1.0",
+    "sinon": "^6.3.5",
+    "sinon-chai": "3.2.0"
+  }
 }

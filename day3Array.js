@@ -1,10 +1,12 @@
 function getSecondLargest(nums) {
-    let i;
-    var secondLargest=0;
-    for (i; i < nums.size; i++) {
-        if(nums)
-
-    }
+    let secondLargest = 0;
+    nums.forEach(function (e,i,nums) {
+      if(e>secondLargest){
+          secondLargest=e;
+      }
+    })
+    
+    return secondLargest;
 }
 
-getSecondLargest([2, 3, 4, 1, 9, 21, 21])
+console.log(getSecondLargest([2, 3, 4, 1, 9, 21, 21]));
